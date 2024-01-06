@@ -1,3 +1,5 @@
+<h2>worse version of hnhx's user.js sorry</h2>
+
 <h1 align="center">hnhx/user.js</h1>
 <p align="center">Removes Mozilla spyware from Firefox and makes Firefox more secure</p>
 
