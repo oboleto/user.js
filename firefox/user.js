@@ -73,7 +73,7 @@ user_pref("network.protocol-handler.external.apt",true);
 user_pref("network.protocol-handler.external.apt+http",true);
 
 // Quality of life stuff
-user_pref("browser.download.useDownloadDir", false);
+//user_pref("browser.download.useDownloadDir", false);
 user_pref("browser.aboutConfig.showWarning", false);
 user_pref("browser.toolbars.bookmarks.visibility", "never");
 user_pref("browser.tabs.firefox-view", false);
@@ -218,7 +218,7 @@ user_pref("media.eme.enabled", false);
 user_pref("media.eme.apiVisible", false);
 
 // Firefox Accounts
-user_pref("identity.fxaccounts.enabled", false);
+// user_pref("identity.fxaccounts.enabled", false);
 
 // WebRTC
 user_pref("media.peerconnection.enabled", true);
@@ -298,7 +298,7 @@ user_pref("media.gmp-eme-adobe.enabled", false);
 
 //Disable middle click content load
 //Avoid loading urls by mistake 
-user_pref("middlemouse.contentLoadURL", false);
+// user_pref("middlemouse.contentLoadURL", false);
 
 //Disable heartbeat
 user_pref("browser.selfsupport.url", "");
@@ -327,7 +327,7 @@ user_pref("browser.user_preferences.moreFromMozilla", false);
 
 // Disable hardware acceleration
 //user_pref("layers.acceleration.disabled", false);
-user_pref("gfx.direct2d.disabled", true);
+// user_pref("gfx.direct2d.disabled", true);
 
 // Disable SSDP
 user_pref("browser.casting.enabled", false);
@@ -383,7 +383,7 @@ user_pref("browser.newtabpage.activity-stream.disableSnippets", true);
 user_pref("browser.newtabpage.activity-stream.tippyTop.service.endpoint", "");
 
 // Enable xrender
-user_pref("gfx.xrender.enabled",true);
+// user_pref("gfx.xrender.enabled",true);
 
 // Disable push notifications 
 user_pref("dom.webnotifications.enabled",false); 
