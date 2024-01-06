@@ -4,9 +4,9 @@ user_pref("app.vendorURL", "http://127.0.0.1/");
 user_pref("app.privacyURL", "http://127.0.0.1/");
 
 // Disable plugin installer
-user_pref("plugins.hide_infobar_for_missing_plugin", true);
-user_pref("plugins.hide_infobar_for_outdated_plugin", true);
-user_pref("plugins.notifyMissingFlash", false);
+// user_pref("plugins.hide_infobar_for_missing_plugin", true);
+// user_pref("plugins.hide_infobar_for_outdated_plugin", true);
+// user_pref("plugins.notifyMissingFlash", false);
 
 //Speeding it up
 user_pref("network.http.pipelining", true);
@@ -60,9 +60,9 @@ user_pref ("plugins.update.url", "http://127.0.0.1/");
 user_pref ("browser.customizemode.tip0.learnMoreUrl", "http://127.0.0.1/");
 
 // Dictionary download user_preference
-user_pref("browser.dictionaries.download.url", "http://127.0.0.1/");
-user_pref("browser.search.searchEnginesURL", "http://127.0.0.1/");
-user_pref("layout.spellcheckDefault", 0);
+// user_pref("browser.dictionaries.download.url", "http://127.0.0.1/");
+// user_pref("browser.search.searchEnginesURL", "http://127.0.0.1/");
+// user_pref("layout.spellcheckDefault", 0);
 
 // Apturl user_preferences
 user_pref("network.protocol-handler.app.apt","/usr/bin/apturl");
@@ -251,20 +251,20 @@ user_pref("extensions.blocklist.enabled", false);
 
 user_pref("font.default.x-western", "sans-serif");
 
-// Preferences for the Get Add-ons panel
-user_pref ("extensions.webservice.discoverURL", "http://127.0.0.1/");
-user_pref ("extensions.getAddons.search.url", "http://127.0.0.1/");
-user_pref ("extensions.getAddons.search.browseURL", "http://127.0.0.1/");
-user_pref ("extensions.getAddons.get.url", "http://127.0.0.1/");
-user_pref ("extensions.getAddons.link.url", "http://127.0.0.1/");
-user_pref ("extensions.getAddons.discovery.api_url", "http://127.0.0.1/");
+// // Preferences for the Get Add-ons panel
+// user_pref ("extensions.webservice.discoverURL", "http://127.0.0.1/");
+// user_pref ("extensions.getAddons.search.url", "http://127.0.0.1/");
+// user_pref ("extensions.getAddons.search.browseURL", "http://127.0.0.1/");
+// user_pref ("extensions.getAddons.get.url", "http://127.0.0.1/");
+// user_pref ("extensions.getAddons.link.url", "http://127.0.0.1/");
+// user_pref ("extensions.getAddons.discovery.api_url", "http://127.0.0.1/");
 
-user_pref ("extensions.systemAddon.update.url", "");
-user_pref ("extensions.systemAddon.update.enabled", false);
+// user_pref ("extensions.systemAddon.update.url", "");
+// user_pref ("extensions.systemAddon.update.enabled", false);
 
 // FIXME: find better URLs for these:
-user_pref ("extensions.getAddons.langpacks.url", "http://127.0.0.1/");
-user_pref ("lightweightThemes.getMoreURL", "http://127.0.0.1/");
+// user_pref ("extensions.getAddons.langpacks.url", "http://127.0.0.1/");
+// user_pref ("lightweightThemes.getMoreURL", "http://127.0.0.1/");
 user_pref ("browser.geolocation.warning.infoURL", "");
 user_pref ("browser.xr.warning.infoURL", "");
 user_pref ("app.feedback.baseURL", "");
@@ -413,3 +413,4 @@ user_pref("browser.contentblocking.report.vpn-promo.url", "");
 user_pref("browser.contentblocking.report.vpn-android.url", "");
 user_pref("browser.contentblocking.report.vpn-ios.url", "");
 user_pref("browser.privatebrowsing.promoEnabled", false);
+
