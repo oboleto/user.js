@@ -188,9 +188,14 @@ user_pref("captivedetect.canonicalURL", "");
 user_pref("network.captive-portal-service.enabled", false);
 // Disable shield/heartbeat
 user_pref("extensions.shield-recipe-client.enabled", false);
+
+
 // Canvas fingerprint protection
 // This also enables useragent spoofing
+
+// this prevents twitch from working peeposad
 // user_pref("privacy.resistFingerprinting", true);
+
 user_pref("webgl.disabled", true);
 user_pref("privacy.trackingprotection.cryptomining.enabled", true);
 user_pref("privacy.trackingprotection.fingerprinting.enabled", true);
